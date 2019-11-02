@@ -1,28 +1,10 @@
-// import { Component } from '@angular/core';
-
-// @Component({
-//   selector: 'app-root',
-//   templateUrl: './app.component.html',
-//   styleUrls: ['./app.component.sass']
-// })
-export class AppComponent {
-  title = 'angular-tour-of-heroes';
-}
-
-
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-heroes',
-  templateUrl: './heroes.component.html',
-  styleUrls: ['./heroes.component.sass']
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
-export class HeroesComponent implements OnInit {
-  hero = 'Windstorm';
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-
+export class AppComponent {
+  title = 'Tour of Heroes';
 }
